@@ -1,0 +1,14 @@
+(executables
+ (package example)
+ (names entry)
+ (public_names entry)
+ (libraries
+  core
+  lwt
+  example
+  cohttp-lwt-unix
+  conduit-lwt-unix
+  lwt_ssl
+  ssl)
+ (preprocess
+  (pps lwt_ppx)))

@@ -1,0 +1,11 @@
+(library
+ (name example)
+ (public_name example)
+ (libraries
+  core
+  lwt
+  cohttp-lwt-unix
+  conduit-lwt-unix
+  uri
+  )
+ )
